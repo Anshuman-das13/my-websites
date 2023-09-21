@@ -1,0 +1,81 @@
+ .main .herobox{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.heroright>.form{
+    box-sizing: border-box;
+    width: 2s00px;
+    height: 300px;
+    border: 2px solid black;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 20px;
+    
+} 
+.form>.regd{
+    text-align: center;
+    border: 3px solid orange;
+    border-radius: 30px;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+.form h3{
+    color: white;
+}
+/* input type */
+
+input[type="text"]
+{
+    width: 170px;
+    border-radius: 30px;
+}
+input[type="email"]
+{
+    width: 170px;
+    border-radius: 30px;
+}
+input[type="tel"]
+{
+    width: 170px;
+    border-radius: 30px;
+}
+input[type="password"]
+{
+    width: 170px;
+    border-radius: 30px;
+}
+input[type="submit"]
+{
+    
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+.heroleft>.button
+{
+    border: 5px solid orange;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+
+}
+.button>p{
+    margin-top: 10px;
+}
